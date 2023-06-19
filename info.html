@@ -1,0 +1,176 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="stylesheet.css"/>
+        
+    </head>
+
+    <body>
+
+        <script>
+            function show_des() {
+                
+                document.getElementById('hidden_content_des').style.display = "block";
+                document.getElementById('show_des').style.display = "none";
+            }
+            function hide_des() {
+                document.getElementById('hidden_content_des').style.display = "none";
+                document.getElementById('show_des').style.display = "block";
+
+            }
+
+            function show_hab() {
+                document.getElementById('hidden_content_hab').style.display = "block";
+                document.getElementById('show_hab').style.display = "none";
+            }
+            function hide_hab() {
+                document.getElementById('hidden_content_hab').style.display = "none";
+                document.getElementById('show_hab').style.display = "block";
+
+            }
+        </script>
+
+
+        <div class="navbar">
+            <h1 style = 
+            "font-family: Arial, Helvetica, sans-serif;
+            color: rgb(162, 162, 162);
+            font-size: 250%;
+            margin-left: 50px;
+            margin-top: 20px;
+            display: inline-block;
+            color: rgb(0, 56, 86);">
+                AxelotlcheBG
+            </h1>
+
+            <ul>
+                <li><a href="index.html"><strong>Home</strong></a></li>
+                <li><a href="facts.html" style="pointer-events: none; 
+                background-color: rgb(25, 25, 25); color: rgb(15, 15, 15);">
+                <strong>Information</strong></a></li>
+                <li><a href="contact.html"><strong>Contact</strong></a></li>
+                <li><a href="about_website.html"><strong>About</strong></a></li>
+            </ul>
+        </div>
+
+
+        <div class="axelotl_info">
+            <div id="description">
+                <img  src="330px-AxolotlBE.jpg" style="float: left; margin-left: 50px; 
+                margin-right: 50px; margin-top: 15px;"/>
+                <h>
+                    Description
+                </h>
+                <p>
+                    A mature adult axolotl, at age 18–27 months, ranges in length from 15 to 45 cm,<br>
+                    although a size close to 23 cm (9 in) is most common and greater than 30 cm (12 in) <br>
+                    is rare. Axolotls possess features typical of salamander larvae, including external gills <br>
+                    and a caudal fin extending from behind the head to the vent.</p>
+                    
+                <button style="height: 40px; width: 40px; font-size: 24px;" onclick="show_des()" id="show_des"><strong>...</strong></button>
+
+                <div id="hidden_content_des" style="display: none;" style="width: 10%;">
+                    <p style="padding-left: 50px;">
+                        External gills are usually lost when salamander species mature into adulthood, although the axolotl <br>
+                        maintains this feature.[14] This is due to their neoteny evolution, where axolotls are much more aquatic than other salamander species.<br>
+                        <br>
+                        Their heads are wide, and their eyes are lidless. Their limbs are underdeveloped and possess long, thin <br>
+                        digits. Males are identified by their swollen cloacae lined with papillae, while females are noticeable <br>
+                        for their wider bodies full of eggs. Three pairs of external gill stalks (rami) originate behind their <br>
+                        heads and are used to move oxygenated water. The external gill rami are lined with filaments (fimbriae) <br>
+                        to increase surface area for gas exchange.[14] Four-gill slits lined with gill rakers are hidden underneath <br>
+                        the external gills, which prevent food from entering and allow particles to filter through.</p>
+                    
+                        <button onclick="hide_des()" 
+                    style="height: 40px; width: 160px; font-size: 24px; margin-left: 50px;">
+                        <strong>Show Less</strong></button>
+                </div>
+            </div>
+
+            <div id="habitat">
+                <img  src="Axolotl_dC3A9nommC3A9_Krokmou.jpg" 
+                style="float: right; height: 35%; margin-right: 50px; margin-top: 20px;"/>
+                <h style="margin-left: 50px;">
+                    Habitat and ecology
+                </h>
+                <p style="margin-left: 50px;">
+                    The axolotl is native only to the freshwater of Lake Xochimilco and Lake Chalco <br>
+                    in the Valley of Mexico. Lake Chalco no longer exists, having been drained as a <br>
+                    flood control measure, and Lake Xochimilco remains a remnant of its former self, <br>
+                    existing mainly as canals. The water temperature in Xochimilco rarely rises above <br>
+                    20 °C (68 °F), although it may fall to 6–7 °C (43–45 °F) in the winter, and perhaps <br>
+                    lower.
+                </p>
+                <button style="height: 40px; width: 40px; font-size: 24px; margin-left: 50px;" 
+                onclick="show_hab()" id="show_hab"><strong>...</strong></button>
+                
+                <div id="hidden_content_hab" style="display: none;" style="width: 10%; ">
+                    <p style="padding-left: 50px;">
+                        Axolotls are members of the tiger salamander, or Ambystoma tigrinum, species <br>
+                        complex, along with all other Mexican species of Ambystoma. Their habitat is like <br>
+                        that of most neotenic species—a high-altitude body of water surrounded by a risky <br>
+                        terrestrial environment. These conditions are thought to favor neoteny. However, a <br>
+                        terrestrial population of Mexican tiger salamanders occupies and breeds in the axolotl's habitat.
+                    </p>
+                    <button onclick="hide_hab()" 
+                    style="height: 40px; width: 160px; font-size: 24px; margin-left: 50px;">
+                        <strong>Show Less</strong></button>
+                </div>
+            </div>
+
+            <div style="margin-left: 50px; margin-right: 50px;">
+                <center>
+                    <h>Diet</h>
+                    <p>The axolotl is carnivorous, consuming small prey such as mollusks, worms, insects, other arthropods, and small fish in the wild.<br>
+                        Axolotls locate food by smell, and will "snap" at any potential meal, sucking the food into their stomachs with vacuum force.</p>
+                    <a href="take_care_axolotl.html#ad">More Information About The Axolotl's Diet</a>
+                </center>
+            </div>
+        </div>
+
+
+
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Website</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about_website.html">About</a></li>
+                            <li><a href="info.html">Info</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Discussed Themes</h4>
+                        <ul>
+                            <li><a href="index.html#wia">What Is an Axolotl</a></li>
+                            <li><a href="take_care_axolotl.html">How Can You Take Care of It</a></li>
+                            <li><a href="info.html">Facts About Axolotls</a></li>
+                            <li><a href="https://www.axolotl.org/faq.htm" target="_blank">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Sources</h4>
+                        <ul>
+                            <li><a href="https://en.wikipedia.org/wiki/Axolotl" target="_blank">WikiPedia</a></li>
+                            <li><a href="https://youtube.com" target="_blank">YouTube</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+                            <li><a href="https://facebook.com/" target="_blank">FaceBook</a></li>
+                            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                            <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </footer>
+
+    </body>
+
+</html>
